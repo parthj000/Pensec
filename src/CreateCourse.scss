@@ -1,0 +1,130 @@
+.create-course-jsx {
+  .create-course-container {
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    font-size: 110%;
+    letter-spacing: 1.25px;
+    font-weight: 700;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.2);
+
+    h1 {
+      text-align: center;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+
+      .form-step {
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .form-step.slide-in {
+        transform: translateX(0);
+      }
+
+      .form-step.slide-out {
+        transform: translateX(-100%);
+      }
+
+      .form-step.slide-out-back {
+        transform: translateX(100%);
+      }
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #000000;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group img {
+      width: 7rem;
+      height: 7rem;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #2c2c2be4;
+    }
+
+    input[type="text"],
+    textarea,
+    input[type="file"],
+    input[type="date"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+    textarea {
+      resize: vertical;
+      height: 100px;
+    }
+
+    .specialty-input,
+    .tag-input {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .specialty-input input[type="text"],
+    .tag-input input[type="text"] {
+      flex: 1;
+      margin-right: 10px;
+    }
+
+    .specialty-input button,
+    .tag-input button,
+    form button {
+      padding: 10px;
+      margin-right:1rem;
+      background-color: #42b1e8;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: all 0.3s;
+    }
+
+    .specialty-input button:hover,
+    .tag-input button:hover,
+    form button:hover {
+      background-color: #005b62;
+      color:white;
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+    }
+
+    .btn-submit {
+      padding: 10px 20px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s;
+      width: 20%;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .btn-submit:hover {
+      background-color: #218838;
+    }
+  }
+}

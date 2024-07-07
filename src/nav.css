@@ -1,0 +1,45 @@
+
+
+.nav{
+    
+    height:4rem;
+    display:flex;
+    
+    
+    
+    justify-content: space-between;
+    padding:0rem 4rem;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 7px rgba(0,0,0,0.5);
+}
+
+.nav .classofauthor{
+padding:0.5rem 3rem;
+box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+background-color: rgb(249, 249, 184);
+}
+.nav input{
+    font-size: 2rem;
+}
+
+.nav .profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+.nav span{
+    font-weight: bold;
+    text-transform: capitalize;
+    
+}
+  
+.nav img{
+    width:2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    box-shadow: 1px 1px 15px rgb(168, 168, 168);
+}
+
+
